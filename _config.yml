@@ -3,7 +3,7 @@ title: Notes
 tag_text: 
 description: 一箪食，一瓢饮，在陋巷
 url: 
-baseurl: ""
+baseurl: "/clean"
 
 font-awesome-include: true # make this false if you don't need font-awesome
 
