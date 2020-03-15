@@ -1,7 +1,7 @@
 # Site settings
 title: Notes
-tag_text: 
-description: 一箪食，一瓢饮，在陋巷
+tag_text: 一箪食，一瓢饮，在陋巷
+description: Just some notes.
 url: weijingyu.com
 baseurl: "/clean"
 
