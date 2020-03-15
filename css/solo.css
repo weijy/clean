@@ -209,6 +209,17 @@ pre > code {
   font-style: italic;
 }
 
+.card {
+  margin-top:10px;
+  padding: 15px;
+  color: #31708f;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
 @media (max-width: 635px) {
 .sharing {
  font-size: 85%;
