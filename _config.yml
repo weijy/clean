@@ -5,6 +5,9 @@ description: 一箪食，一瓢饮，在陋巷
 url: weijingyu.com
 baseurl: "/clean"
 
+collections:
+  - notes
+
 font-awesome-include: true # make this false if you don't need font-awesome
 
 # Build settings
