@@ -7,7 +7,7 @@ html {
 
 
 @media (max-width: 325px) {
-  html { font: 16px/1.6 'Open Sans', sans-serif; }
+  html { font: 14px/1.6 'Open Sans', sans-serif; }
 }
 
 body {
