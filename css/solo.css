@@ -116,7 +116,7 @@ dd {
 }
 
 blockquote {
-  /* margin-left: 0.75rem; */
+  margin-left: 0;
   margin-right: 0;
   padding: 0rem 0.8rem;
   border-left: .3rem solid #ccc;
@@ -282,7 +282,7 @@ pre > code {
 }
 
 
-div#navbar {
+.navbar {
     padding-top: 8px;
     padding-bottom: 10px;
 }
