@@ -98,7 +98,7 @@ h3 {
 }
 
 h4, h5, h6 {
-  margin: 1.5rem -1rem 1.5rem -1rem;
+  margin: 1.5rem 0;
   font-size: 1.5rem;
 }
 
@@ -208,6 +208,7 @@ pre > code {
   text-align: right;
   font-size: 75%;
   font-style: italic;
+  margin-right: 3rem;
 }
 
 .card {
