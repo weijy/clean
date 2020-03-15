@@ -15,15 +15,16 @@
 <body>
   <article>
    <div class="container">
-    <h1><a href="/">{{ site.title }}</a></h1>
-     <h2>{{ site.tag_text }}</h2>
-    <div id="navbar">
+     <div id="navbar">
         <a href="/">Home</a>
         <div class="nav_spacer">|</div>
         <a href="/notes">Notes</a>
         <div class="nav_spacer">|</div> 
         <a href="/posts">Posts</a>
-    </div>
+     </div>
+     <h1><a href="/">{{ site.title }}</a></h1>
+     <h4>{{ page.title }}</h4>
+     <date>{{ page.date | date: "%Y-%m-%d" }}</date>    
     {{ content }}
     </div>
   </article>
