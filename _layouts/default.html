@@ -12,7 +12,7 @@
   {% if site.font-awesome-include %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">{% endif %}
   <link rel="stylesheet" href="{{ site.baseurl }}/css/rrssb.css">
 
-  <script src="http://code.jquery.com/jquery-3.4.1.js"></script>
+  <script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
   <link rel="canonical" href="{{ site.url }}" />
 </head>
 <body>
@@ -20,7 +20,7 @@
    <div class="container">
     <h1><a href="/">{{ site.title }}</a></h1>
      <h2>{{ site.tag_text }}</h2>
-    <div id="navbar">
+    <div class="navbar">
         <a href="/">Home</a>
         <div class="nav_spacer">|</div>
         <a href="/notes">Notes</a>
