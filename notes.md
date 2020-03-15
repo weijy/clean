@@ -2,7 +2,7 @@
 layout: default
 title: 碎碎念
 ---
-{% for note in site.notes %}
+{% for note in site.notes reversed %}
 <div class="card" id="date-{{ note.date | date: "%Y-%m-%d %H:%M" }}{{ note.slug }}">
   <small>
     <date>
