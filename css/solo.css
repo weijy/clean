@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italc,400,400italic,500,700);
 
 html {
-  font: 18px/1.6 'Open Sans', sans-serif;
+  font: 16px/1.6 'Open Sans', sans-serif;
   letter-spacing: 0.5px;
 }
 
@@ -104,7 +104,7 @@ h4, h5, h6 {
 
 p, ul, ol, dl, table, pre, blockquote {
   margin-top: 0;
-  margin-bottom: 1.5rem;
+  /* margin-bottom: 1.5rem; */
 }
 
 ul, ol {
@@ -153,9 +153,10 @@ word-wrap: break-word;
 }
 
 .container img {
-  margin: 2em auto 2em auto;
+  /* margin: 2em auto 2em auto; */
   display: block;
   max-width: 75%;
+  max-height: 350px;
 }
 
 @media (max-width: 635px) {
@@ -211,7 +212,7 @@ pre > code {
 
 .card {
   margin-top:10px;
-  /* padding: 15px;  */
+  padding: 15px;
   color: #31708f;
   background-color: #d9edf7;
   border-color: #bce8f1;
