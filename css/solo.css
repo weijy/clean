@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italc,400,400italic,500,700);
 
 html {
-  font: 16px/1.6 'Open Sans', sans-serif;
+  font: 18px/1.6 'Open Sans', sans-serif;
   letter-spacing: 0.5px;
 }
 
@@ -293,3 +293,21 @@ pre > code {
     display: inline-block;
     color: white;
 }
+.alignright {
+    float: right;
+    width: 40%;
+    margin: 0 0 10px 10px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto;
+}
+
+.alignleft {
+    float: left;
+    width: 40%;
+    margin: 0 10px 10px 0;
+}
+
+
