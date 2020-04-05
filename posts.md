@@ -10,7 +10,7 @@ title-hide: true
         <li>
             <span>{{ post.date | date: '%Y/%m/%d' }}</span>
             
-            <a href="{{ post.url }}">{{ post.title }}</a>
+            <a href="{{ post.url | relative_url}}">{{ post.title }}</a>
         </li>
         {% endfor %}
 </ul>
