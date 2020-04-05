@@ -2,7 +2,7 @@
 title: Notes
 tag_text: 一箪食，一瓢饮，在陋巷
 description: Just some notes.
-url: weijingyu.com
+# url: weijingyu.com
 baseurl: "/clean"
 
 collections:
