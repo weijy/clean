@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-[卓别林与海伦凯勒](/clean/images/zhuobielin_hailunkaile.jgp)
+![卓别林与海伦凯勒](/clean/images/zhuobielin_hailunkaile.jgp)
 <blockquote>{{ site.summer }}</blockquote>
 <hr >
 {% assign notes = site.notes | reverse %}
