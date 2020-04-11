@@ -148,6 +148,7 @@ hr {
 
 .img, .container iframe {
   max-width: 100%;
+  margin: 1em 0;
 }
 
 a {
@@ -316,7 +317,7 @@ pre > code {
 .box {
   border: 1px solid #d1d5da;
   border-radius: 3px;
-  padding: 0 1em;
+  padding: 1em;
   margin: 3em 0;
 }
 
