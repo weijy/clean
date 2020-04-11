@@ -18,20 +18,7 @@ Back up your stuff with solid, clean citations. Footnotes can be written in mark
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
-### Add social sharing buttons
 
-Simply add the following line anywhere in your markdown:
-
-<pre><code>{% raw  %}
-{% include sharing.html %}
-{% endraw %}
-</code></pre>
-
-and get a nice responsive sharing ribbon.
-
-{% include sharing.html %}
-
-Add this at the bottom, or the top, or between every other paragraph if you're desprate for social validation.
 
 Just remember to customize the buttons to fit your url in the `_includes/sharing.html` file. These buttons are made available and customizable by the good folks at kni-labs. See the documentation at [https://github.com/kni-labs/rrssb](https://github.com/kni-labs/rrssb) for more information.
 
