@@ -8,9 +8,9 @@ html {
 }
 
 
-/* @media (max-width: 325px) {
-  html { font-size: 14px; }
-} */
+@media (max-width: 325px) {
+  html { font-size: 17px; }
+}
 
 body {
   margin: 2rem 0 5rem;
