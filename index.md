@@ -9,7 +9,7 @@ layout: default
 
 <div class="box">
   <div class="box-heading">
-    <i class="fa-li fa fa-comment"></i>最近的碎碎念 {{ note.date | date: "%Y-%m-%d"}}
+    # 最近的碎碎念 {{ note.date | date: "%Y-%m-%d"}}
   </div>
   {{ notes[0].content | markdownify }}
 </div>
