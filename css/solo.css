@@ -1,13 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300italc,400,400italic,500,700);
 
 html {
-  font: 18px/1.6 'Open Sans', sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+  font-size: 16px;
+  line-height: 1.6;
   letter-spacing: 0.5px;
 }
 
 
 @media (max-width: 325px) {
-  html { font: 14px/1.6 'Open Sans', sans-serif; }
+  html { font-size: 14px; }
 }
 
 body {
@@ -177,8 +179,9 @@ td, th {
 }
 
 pre, code {
-  font-family: monospace;
-  background-color: #eee;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+  border-radius: 3px;
+  background-color:rgba(27,31,35,.05);
 }
 
 pre {
@@ -310,4 +313,7 @@ pre > code {
     margin: 0 10px 10px 0;
 }
 
-
+.box {
+  border: 1px solid #d1d5da;
+  border-radius: 3px;
+}
