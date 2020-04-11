@@ -316,15 +316,14 @@ pre > code {
 .box {
   border: 1px solid #d1d5da;
   border-radius: 3px;
-  padding: .5em 1.4em 0;
-  margin: 2em 0;
+  padding: 0 1em;
+  margin: 3em 0;
 }
 
 .box-heading {
-  font-size: .5em;
   /* font-style: italic; */
   position: absolute;
   padding: 0 .5em;
   background: #fff;
-  margin-top: -2em;
+  margin-top: -1em;
 }
