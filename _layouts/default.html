@@ -6,9 +6,9 @@
   <meta name="description" content="{{ site.description }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/normalize.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/solo.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}/css/syntax.css">
+  <link rel="stylesheet" href={{ "/css/normalize.css" | relative_url }}>
+  <link rel="stylesheet" href={{ "/css/solo.css" | relative_url }}>
+  <link rel="stylesheet" href={{ "/css/syntax.css"| relative_url }}>
   {% if site.font-awesome-include %}<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">{% endif %}
   <link rel="canonical" href="{{ site.url }}" />
 </head>
@@ -27,7 +27,7 @@
       <div class="date">{{ page.date | date: "%Y-%m-%d" }}</div>
     </div>
   </article>
-  <script src="/scripts/zooming.min.js"></script>
+  <script src={{ "/scripts/zooming.min.js" | relative_url }}></script>
   <script>if (window.Zooming) window.addEventListener('load', function () { new Zooming().listen('.post-content img') })</script>
 </body>
 </html>
