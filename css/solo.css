@@ -327,3 +327,16 @@ pre > code {
   background: #fff;
   margin-top: -1em;
 }
+
+.box p:first-child, .note blockquote:first-child {
+  margin-top: 0
+}
+
+.box p:last-child, .note blockquote:last-child, .note img:last-child {
+  margin-bottom: 0
+}
+
+img[width] {
+  margin: 0;
+  vertical-align: middle
+}
