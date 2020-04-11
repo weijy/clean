@@ -316,4 +316,18 @@ pre > code {
 .box {
   border: 1px solid #d1d5da;
   border-radius: 3px;
+  padding: 1em;
+  padding-bottom: 0;
+  padding-top: 1em;
+  margin: 2em 0;
+}
+
+.box-heading {
+  font-size: .5em;
+  /* font-style: italic; */
+  position: absolute;
+  padding: 0 .5em;
+  margin-left: 2em;
+  background: #fff;
+  margin-top: -1em;
 }
