@@ -326,4 +326,5 @@ pre > code {
   position: absolute;
   padding: 0 .5em;
   background: #fff;
+  margin-top: -2em;
 }
