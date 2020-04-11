@@ -2,8 +2,9 @@
 layout: default
 ---
 ![卓别林与海伦凯勒](/clean/images/zhuobielin_hailunkaile.jpg)
+<hr>
 <blockquote>{{ site.summer }}</blockquote>
-<hr >
+<hr>
 {% assign notes = site.notes | reverse %}
 
 <div class="box">
